@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Run from inside ./build
+# Run from inside ./data
 # Requires ./format_results.sh in the same directory
 
 ./tools/run_approx_algo1_count.sh rxk 8 1e-2 && ./format_results.sh rxk 1e-2 >_rxk_1e-2.txt
