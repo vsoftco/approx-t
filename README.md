@@ -3,9 +3,10 @@ Numerical results for [**arXiv:22xx.xxxxx [quant-ph]**, "**T-count and T-depth o
 
 ---
 
-To product the results from the raw data, run the script `format_results.sh`.
+To product the results from the raw data, run the script
+[`results/approx_algo1/format_results.sh`](https://github.com/vsoftco/approx-t/blob/main/results/approx_algo1/format_results.sh).
 For example, to product the results for the `crzk` with error rate `3e-3`, run
 
 ```bash
-bash ./format_results.sh crzk 3e-3
+bash results/approx_algo1/format_results.sh results/approx_algo1/data/crzk 3e-3
 ```
