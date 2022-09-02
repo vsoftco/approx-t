@@ -1,4 +1,4 @@
-# t-depth
+# approx-t
 Numerical results for [**arXiv:2110.10292 [quant-ph]**, "**T-count and T-depth of *any* multi-qubit unitary**"](https://arxiv.org/abs/2110.10292), by *Vlad Gheorghiu, Michele Mosca, and Priyanka Mukhopadhyay*
 
 ---
