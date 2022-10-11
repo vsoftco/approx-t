@@ -1,0 +1,187 @@
+#### Approximate algo1 (count), epsilon: 5e-3 (n: 1) ####
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 0
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 1
+Chunk size: 1
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 1
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 4
+Chunk size: 1
+Allocated cores = 4
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 2
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 16
+Chunk size: 2
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 1 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 3
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 64
+Chunk size: 8
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 2 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 4
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 256
+Chunk size: 32
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 3 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 5
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 1024
+Chunk size: 128
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 6 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 6
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 4096
+Chunk size: 512
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 13 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 7
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 16384
+Chunk size: 2048
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 29 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 8
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 65536
+Chunk size: 8192
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 59 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 9
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 262144
+Chunk size: 32768
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 131 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 10
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 1048576
+Chunk size: 131072
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 272 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 11
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 4194304
+Chunk size: 524288
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 582 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 12
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 16777216
+Chunk size: 2097152
+Allocated cores = 8
+--------------------
+OUT:
+no
+Took: 1230 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 13
+IN: Precision = 0.005
+IN: num_cores = 8
+Space size: 67108864
+Chunk size: 8388608
+Allocated cores = 8
+--------------------
+SOLUTION:
+Core: 5 -> [41943040, 50331648)
+Pauli vector (symplectic): [2 3 1 3 1 2 3 2 1 2 3 2 1]
+Computational steps in this chunk: 11063
+OUT:
+yes
+Took: 576 ms
+#### T-count: 13 ####
