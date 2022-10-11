@@ -8,5 +8,5 @@ To product the results from the raw data, run the script
 For example, to product the results for the `crzk` with error rate `3e-3`, run
 
 ```bash
-bash results/approx_algo1/approx_algo1_format_results.sh results/approx_algo1/raw/crzk 3e-3
+cd results/approx_algo1/ && bash ./approx_algo1_format_results.sh ./raw/crzk 3e-3
 ```
