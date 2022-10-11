@@ -1,0 +1,239 @@
+#### Approximate algo1 (count), epsilon: 1e-2 (n: 1) ####
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 0
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 1
+Chunk size: 1
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 1
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 4
+Chunk size: 4
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 1 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 2
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 16
+Chunk size: 16
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 3
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 64
+Chunk size: 64
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 4
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 256
+Chunk size: 256
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 5
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 1024
+Chunk size: 1024
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 1 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 6
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 4096
+Chunk size: 4096
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 4 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 7
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 16384
+Chunk size: 16384
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 9 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 8
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 65536
+Chunk size: 65536
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 19 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 9
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 262144
+Chunk size: 262144
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 40 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 10
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 1048576
+Chunk size: 1048576
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 86 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 11
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 4194304
+Chunk size: 4194304
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 201 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 12
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 16777216
+Chunk size: 16777216
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 303 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 13
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 67108864
+Chunk size: 67108864
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 500 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 14
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 268435456
+Chunk size: 268435456
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 958 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 15
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 1073741824
+Chunk size: 1073741824
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 1906 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 16
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 4294967296
+Chunk size: 4294967296
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 4021 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 17
+IN: Precision = 0.01
+IN: num_cores = 1
+Space size: 17179869184
+Chunk size: 17179869184
+Allocated cores = 1
+--------------------
+SOLUTION:
+Core: 0 -> [0, 17179869184)
+Pauli vector (symplectic): [2 1 2 3 1 3 2 3 2 3 2 3 1 2 3 2 3]
+Computational steps in this chunk: 1711574
+OUT:
+yes
+Took: 3215 ms
+#### T-count: 17 ####

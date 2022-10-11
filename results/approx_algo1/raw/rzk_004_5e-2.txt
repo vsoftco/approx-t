@@ -1,0 +1,122 @@
+#### Approximate algo1 (count), epsilon: 5e-2 (n: 1) ####
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 0
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 1
+Chunk size: 1
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 1
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 4
+Chunk size: 4
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 2
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 16
+Chunk size: 16
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 3
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 64
+Chunk size: 64
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 4
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 256
+Chunk size: 256
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 1 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 5
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 1024
+Chunk size: 1024
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 2 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 6
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 4096
+Chunk size: 4096
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 4 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 7
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 16384
+Chunk size: 16384
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 11 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 1
+IN: T-count target = 8
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 65536
+Chunk size: 65536
+Allocated cores = 1
+--------------------
+SOLUTION:
+Core: 0 -> [0, 65536)
+Pauli vector (symplectic): [2 1 3 1 3 1 2 3]
+Computational steps in this chunk: 2202
+OUT:
+yes
+Took: 8 ms
+#### T-count: 8 ####

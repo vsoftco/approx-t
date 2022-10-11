@@ -1,0 +1,67 @@
+#### Approximate algo1 (count), epsilon: 1e-4 (n: 3) ####
+Approximation algorithm 2, count
+n = 3
+IN: T-count target = 0
+IN: Precision = 0.0001
+IN: num_cores = 1
+Space size: 1
+Chunk size: 1
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 11 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 3
+IN: T-count target = 1
+IN: Precision = 0.0001
+IN: num_cores = 1
+Space size: 64
+Chunk size: 64
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 198 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 3
+IN: T-count target = 2
+IN: Precision = 0.0001
+IN: num_cores = 1
+Space size: 4096
+Chunk size: 4096
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 6101 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 3
+IN: T-count target = 3
+IN: Precision = 0.0001
+IN: num_cores = 1
+Space size: 262144
+Chunk size: 262144
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 248726 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 3
+IN: T-count target = 4
+IN: Precision = 0.0001
+IN: num_cores = 1
+Space size: 16777216
+Chunk size: 16777216
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 10908578 ms
+--------------------------------
+#### T-count: stopped early, at T-count 4 ####

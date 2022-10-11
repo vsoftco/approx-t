@@ -1,0 +1,18 @@
+#### Approximate algo1 (count), epsilon: 5e-2 (n: 3) ####
+Approximation algorithm 2, count
+n = 3
+IN: T-count target = 0
+IN: Precision = 0.05
+IN: num_cores = 1
+Space size: 1
+Chunk size: 1
+Allocated cores = 1
+--------------------
+SOLUTION:
+Core: 0 -> [0, 1)
+Clifford
+Computational steps in this chunk: 1
+OUT:
+yes
+Took: 8 ms
+#### T-count: 0 ####

@@ -1,5 +1,7 @@
 Max T-count (included): 7
 k: 002 T-count: 2
+k: 005 T-count: 0
+k: 006 T-count: 0
 k: 007 T-count: 0
 k: 008 T-count: 0
 k: 009 T-count: 0

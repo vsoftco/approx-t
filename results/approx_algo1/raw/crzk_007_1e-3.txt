@@ -1,0 +1,106 @@
+#### Approximate algo1 (count), epsilon: 1e-3 (n: 2) ####
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 0
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 1
+Chunk size: 1
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 1
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 16
+Chunk size: 16
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 2 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 2
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 256
+Chunk size: 256
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 20 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 3
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 4096
+Chunk size: 4096
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 217 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 4
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 65536
+Chunk size: 65536
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 1984 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 5
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 1048576
+Chunk size: 1048576
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 21453 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 6
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 16777216
+Chunk size: 16777216
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 237018 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 7
+IN: Precision = 0.001
+IN: num_cores = 1
+Space size: 268435456
+Chunk size: 268435456
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 2658790 ms
+--------------------------------
+#### T-count: stopped early, at T-count 7 ####

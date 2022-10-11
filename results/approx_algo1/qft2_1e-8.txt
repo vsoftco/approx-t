@@ -1,0 +1,57 @@
+#### Approximate algo1 (count), epsilon: 1e-8 (n: 2) ####
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 0
+IN: Precision = 1e-08
+IN: num_cores = 1
+Space size: 1
+Chunk size: 1
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 0 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 1
+IN: Precision = 1e-08
+IN: num_cores = 1
+Space size: 16
+Chunk size: 16
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 2 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 2
+IN: Precision = 1e-08
+IN: num_cores = 1
+Space size: 256
+Chunk size: 256
+Allocated cores = 1
+--------------------
+OUT:
+no
+Took: 20 ms
+--------------------------------
+Approximation algorithm 2, count
+n = 2
+IN: T-count target = 3
+IN: Precision = 1e-08
+IN: num_cores = 1
+Space size: 4096
+Chunk size: 4096
+Allocated cores = 1
+--------------------
+SOLUTION:
+Core: 0 -> [0, 4096)
+Pauli vector (symplectic): [1 8 9]
+Computational steps in this chunk: 361
+OUT:
+yes
+Took: 11 ms
+#### T-count: 3 ####
